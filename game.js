@@ -2,6 +2,7 @@ console.log("Connected");
 
 var btnColors = ["red", "blue", "green", "yellow"];
 var gamePattern = [];
+var userClickedPattern = [];
 
 var randomNum = 0;
 var nextColor = "";
@@ -20,9 +21,20 @@ function randomChosenColor() {
     console.log(gamePattern);
     var selectedSquare = $("#" + nextColor);
     console.log(selectedSquare);
+    
     selectedSquare.fadeIn(100).fadeOut(100).fadeIn(100);
-    var audio = new Audio("sounds/" + nextColor + ".mp3");
-    audio.play();
+    playSound();
+};
+
+function playSound(name) {
+    // var audio = new Audio("sounds/" + nextColor + ".mp3");
+    // audio.play();
 };
 
 randomChosenColor();
+
+$('.btn').click(function() {
+    var userChosenColor = $(this).attr("id");
+    userClickedPattern.push(userChosenColor);
+    console.log(userClickedPattern);
+});
