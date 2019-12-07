@@ -21,6 +21,8 @@ function randomChosenColor() {
     var selectedSquare = $("#" + nextColor);
     console.log(selectedSquare);
     selectedSquare.fadeIn(100).fadeOut(100).fadeIn(100);
+    var audio = new Audio("sounds/" + nextColor + ".mp3");
+    audio.play();
 };
 
 randomChosenColor();
