@@ -1,4 +1,4 @@
-# Patternize
+# SIMON - Game
 
 Can you repeat the pattern? Test your memory in this fun mini game.
 
@@ -17,5 +17,5 @@ Can you repeat the pattern? Test your memory in this fun mini game.
 6. The game will continue as long as you can repeat the sequence correctly.
 
 ## Technologies
-
 * jQuery
+* JavaScript
