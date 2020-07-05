@@ -1,6 +1,8 @@
 # SIMON - Game
+Can you repeat the pattern? Test your memory in this fun mini game built using jQuery and CSS.
 
-Can you repeat the pattern? Test your memory in this fun mini game.
+##### Live Demo
+[Play](https://nadinejuraschek.github.io/Simon-Game/) the game!
 
 ## How to Play
 
@@ -19,3 +21,7 @@ Can you repeat the pattern? Test your memory in this fun mini game.
 ## Technologies
 * jQuery
 * JavaScript
+* CSS
+
+## Preview
+![Preview](./readme/preview.gif)
